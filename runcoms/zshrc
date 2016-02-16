@@ -13,3 +13,6 @@ fi
 # s3cmd aliases
 alias s3cmd-dev="s3cmd -c ~/.s3cfg-dev"
 alias s3cmd-prd="s3cmd -c ~/.s3cfg-prd"
+
+# completion definitions
+source /usr/local/share/zsh/site-functions/_aws
